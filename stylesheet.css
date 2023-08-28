@@ -1,11 +1,11 @@
-h1 {
-  color: #ff0000;
+h2 {
+  color: red;
   font-size: 40px;
   font-family: serif;
 }
 
 h2 {
-  color: #0000ff;
+  color: blue;
   font-size: 20px;
   font-family: "Lucida Grande";
 }
