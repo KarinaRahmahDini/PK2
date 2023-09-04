@@ -19,3 +19,22 @@ li {
 .selected {
   color: #ff0000;
 }
+
+body {
+  font-family: "Avenir Next";
+}
+
+{
+  background-color: #f7f2b4;
+  height: 90px;
+}
+
+{
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+{
+  background-color: #ceccf3;
+  height: 270px;
+}
