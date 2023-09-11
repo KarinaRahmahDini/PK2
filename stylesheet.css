@@ -39,6 +39,33 @@ li {
   color: #ff4a4a;
 }
 
+.contents {
+  height: 500px;
+  /* Ganti property margin-top ke 100px */
+  
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  /* Ganti font-size ke 28px */
+  
+  
+  /* Ganti property padding-bottom ke 15px */
+  
+  
+  /* Ganti property margin-bottom ke 50px */
+  
+}
+
+.contents-item {
+  float: left;
+  /* Ganti margin-right ke 40px */
+  
+}
+
+/* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
+
+
 .footer {
   background-color: #2f5167;
   color: #fff;
