@@ -24,7 +24,7 @@ li {
 }
 
 .main {
-  padding: 80px 80px;
+  padding: 100px 80px;
 }
 
 .copy-container h1 {
@@ -41,30 +41,33 @@ li {
 
 .contents {
   height: 500px;
-  /* Ganti property margin-top ke 100px */
-  
+  /* Gantikan property margin-top ke 100px */
+  margin-top: 100px;
 }
 
 .section-title {
   border-bottom: 2px solid #dee7ec;
-  /* Ganti font-size ke 28px */
+  /* Gantikan font-size ke 28px */
+  font-size: 28px;
   
+  /* Gantikan property padding-bottom ke 15px */
+  padding-bottom: 15px;
   
-  /* Ganti property padding-bottom ke 15px */
-  
-  
-  /* Ganti property margin-bottom ke 50px */
-  
+  /* Gantikan property margin-bottom ke 50px */
+  margin-bottom: 50px;
 }
 
 .contents-item {
   float: left;
-  /* Ganti margin-right ke 40px */
-  
+  /* Gantikan margin-right ke 40px */
+  margin-right: 40px;
 }
 
-/* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
-
+/* Gantikan font-size dan margin-top tag <p> yang didalam contents-item */
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
 
 .footer {
   background-color: #2f5167;
