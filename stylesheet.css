@@ -1,81 +1,9 @@
-h1 {
-  color: blue;
-  font-size: 40px;
-  font-family: serif;
-  background-color: #f3f372;
-  height: 50px;
-  width: 900px;
-}
-
-h2 {
-  color: red;
-  font-size: 20px;
-  font-family: "Lucida Grande";
-}
-
-img [
-height:30px;
-width:50px;
-}
-
-li {
-  color: #444;
-}
-.selected {
-  color: #ff0000;
-}
-
 body {
   font-family: "Avenir Next";
 }
 
 li {
   list-style: none;
-  float: left;
-}
-
-.header {
-  background-color: #f7f2b4;
-  height: 90px;
-}
-
-.header-logo {
-  font-size: 36px;
-  float: left;
-}
-
-.main {
-  background-color: #bdf7f1;
-  height: 700px;
-}
-
-.footer {
-  background-color: #ceccf3;
-  height: 270px;
-}
-{
-  background-color: #f7f2b4;
-  height: 90px;
-}
-
-{
-  background-color: #bdf7f1;
-  height: 600px;
-}
-
-{
-  background-color: #ceccf3;
-  height: 270px;
-}
-
-body {
-  font-family: "Avenir Next";
-}
-
-li {
-  list-style: none;
-  float: left;
-  padding: 33px 20px;
 }
 
 .header {
@@ -90,9 +18,34 @@ li {
   padding: 20px 40px;
 }
 
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  /* Hapuskan CSS background-color */
+  
+  /* Hapuskan CSS height */
+  
+  /* Gantikan padding atas & bawah ke 100px, dan padding kiri & kanan ke 80px */
+  padding: 100px 80px;
+  
+}
+
+/* Gantikan font-size tag <h1> didalam copy-container */
+.copy-container h1 {
+  font-size: 140px;
+}
+
+/* Gantikan font-size tag <h2> didalam copy-container */
+.copy-container h2 {
+  font-size: 60px;
+}
+
+/* Gantikan color tags <span> didalam copy-container */
+.copy-container span {
+  color: #ff4a4a;
 }
 
 .footer {
@@ -100,12 +53,11 @@ li {
   color: #fff;
   height: 120px;
   padding: 40px;
-  
 }
 
 .footer-logo {
-  font-size: 32px;
   float: left;
+  font-size: 32px;
 }
 
 .footer-list {
