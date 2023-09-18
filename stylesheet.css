@@ -50,6 +50,13 @@ li {
   background-color: #55acee;
 }
 
+.btn:hover {
+  opacity: 1;
+}
+
+.fa{
+  margin-right: 5px;
+
 .btn-wrapper {
   margin: 20px 0;
 }
