@@ -24,11 +24,10 @@ li {
 }
 
 .main {
-  padding-top: 180px;
-  padding-bottom: 1000x;
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
   color: white;
-  background-image:(url(https://prog-8.com/images/html/advanced/top_en.png));
-  background-size:cover:
 }
 
 .copy-container h1 {
